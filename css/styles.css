@@ -1,0 +1,379 @@
+body {
+    font-family: "Segoe UI", Roboto, "Helvetica Neue";
+    margin: 0;
+}
+
+.container {
+    max-width: 1400px;
+    padding: 3rem;
+    margin: 0 auto; 
+    padding: 2rem 3rem;
+}
+
+.container.hero-section {
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #2b3035;
+    width: 100%;
+    padding: 0.5rem;
+    gap: 2rem;
+}
+
+.menu-top-menu {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+.menu-item {   
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.menu-item:hover {
+    background-color: #FFF;
+    color:  #2b3035;
+}
+
+.hero-section {
+    width: 100%;
+    background: #FFF7F1;
+}
+
+.main-header {
+    color: #E78895;
+    font-size: 2.3rem;
+    margin: 0.5rem 0;
+}
+
+.introduction {
+    color: #212529;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.container.hero {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1rem;
+}
+
+.intro {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-container {
+    width: 100%;
+    text-align: center;
+}
+
+.developer {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.profile-header {    
+    color: #E78895;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-bottom: 0.8rem;
+}
+
+.card-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1.5rem;
+    max-width: 350px;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: auto;
+    max-width: 400px;
+    border: 3px solid #BED1CF;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px #BED1CF;    
+}
+
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 0.2rem;
+    border-bottom: 3px solid #BED1CF;;
+    padding: 0.5em
+}
+
+.close {
+    height: 10px;
+    width: 10px;
+    border: 2px solid #df4746;
+    background-color: #fd5754;
+    border-radius: 50%;
+}
+
+.minimize {
+    height: 10px;
+    width: 10px;
+    border: 2px solid #dc9f33;
+    background-color: #febb40;
+    border-radius: 50%;
+}
+
+.full-screen {
+    height: 10px;
+    width: 10px;
+    border: 2px solid #29a936;
+    background-color: #34c848;
+    border-radius: 50%;
+}
+
+.card-content {
+    padding: 1em;
+}
+
+.beginning-wrapper {
+    display: grid;
+    gap: 1rem;
+}
+
+.beginning-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.img-container {
+    width: 100%;
+    text-align: center;
+}
+.beginning-left {
+    padding: 1.5rem;
+    border-radius: 10px;
+    background: #FFE4C9;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   }
+
+.beginning-right {
+    padding: 1rem;
+    border-radius: 10px;
+    background: #BED1CF;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.resume-button {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    background-color: #E78895;
+    font-weight: bold;
+    color: white;
+}
+
+.resume-button:hover {
+    color: #E78895;
+    background-color: white;
+    box-shadow: 3px 6px #BED1CF;
+}
+
+.resume-header {    
+    color: #E78895;
+    font-size: 1.8rem;
+    padding-bottom: 0.8rem;
+    margin: 0;
+}
+
+.resume-subheader {
+    color: #3A3B3C;
+    font-size: 1.3rem;
+    padding-bottom: 0.8rem;
+}
+
+.resume-image {   
+    max-width: 200px;
+    border-radius: 50%;
+    margin: 1.5rem auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.main-header.resume-top-header {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.resume p {
+    color: #3A3B3C;
+}
+
+.resume-hero-container {
+    display: grid;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;   
+}
+
+.resume .hero-section {
+    border-bottom: 2px solid #BED1CF;
+}
+
+hr {
+    background-color: #BED1CF;
+}
+
+.resume-break {
+    margin: auto;
+    width: 90%;
+    background-color: #BED1CF;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.resume-experience {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-resume {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+
+.contact-links {
+    text-decoration: none;
+}
+
+.contact-links:hover {
+    color: #CCD3CA;
+    font-weight: bold;
+}
+
+.resume-footer {
+    padding: 1em;
+}
+
+@media only screen and (min-width: 600px) {
+    .container.hero {
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+    .intro {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .main-header {
+        font-size: 2.3rem;
+        max-width: 300px;
+        line-height: 1;
+    }
+
+    .introduction {
+        font-size: 1.1rem;
+    }
+
+    .img-container {
+        width: 50%;
+    }
+
+    .developer {
+        width: 100%;
+        height: auto;
+    } 
+
+    .card-wrapper {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 1.5rem;
+        max-width: 800px;
+        margin: auto;
+    }
+
+   .beginning-left {
+    display: flex;
+    gap: 3rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 100%;
+   }
+
+   .beginning-right {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 3rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 100%;
+    margin-left: auto;
+   }
+
+   .beginning-content {
+    width: 50%;
+    margin: auto;
+   }
+
+   .resume-hero-container {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+   }
+
+   .main-header.resume-top-header {
+        font-size: 3.8rem;
+   }
+}
+
+@media only screen and (min-width: 992px) {
+    .container.hero {
+        gap: 4rem;
+    }
+    
+    .main-header {
+        font-size: 2.8rem;
+    } 
+    
+    .introduction {
+        font-size: 1.25rem;
+    }
+
+    .card-wrapper {
+        gap: 3rem;
+    }
+
+    .beginning-wrapper {
+        gap: 1.5rem;
+    }
+
+    .beginning-left {
+        width: 70%
+    }
+
+    .beginning-right {
+        width: 70%;
+    }
+}
